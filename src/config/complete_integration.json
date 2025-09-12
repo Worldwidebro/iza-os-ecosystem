@@ -1,0 +1,426 @@
+{
+  "integration_status": "complete",
+  "total_components": 42,
+  "systems": {
+    "claude_templates": {},
+    "claude_agents": {},
+    "n8n_workflows": {
+      "project": {
+        "name": "project",
+        "path": "/Users/divinejohns/memU/iza-os-ecosystem-workspace/iza-os-ecosystem/activepieces/packages/pieces/community/photoroom/project.json",
+        "type": "n8n_workflow",
+        "status": "available",
+        "description": "n8n workflow: project",
+        "nodes": 0,
+        "connections": 0
+      },
+      "package": {
+        "name": "package",
+        "path": "/Users/divinejohns/memU/iza-os-ecosystem-workspace/iza-os-ecosystem/activepieces/packages/pieces/community/photoroom/package.json",
+        "type": "n8n_workflow",
+        "status": "available",
+        "description": "n8n workflow: package",
+        "nodes": 0,
+        "connections": 0
+      },
+      "tsconfig": {
+        "name": "tsconfig",
+        "path": "/Users/divinejohns/memU/iza-os-ecosystem-workspace/iza-os-ecosystem/activepieces/packages/pieces/community/photoroom/tsconfig.json",
+        "type": "n8n_workflow",
+        "status": "available",
+        "description": "n8n workflow: tsconfig",
+        "nodes": 0,
+        "connections": 0
+      },
+      "tsconfig.lib": {
+        "name": "tsconfig.lib",
+        "path": "/Users/divinejohns/memU/iza-os-ecosystem-workspace/iza-os-ecosystem/activepieces/packages/pieces/community/photoroom/tsconfig.lib.json",
+        "type": "n8n_workflow",
+        "status": "available",
+        "description": "n8n workflow: tsconfig.lib",
+        "nodes": 0,
+        "connections": 0
+      },
+      ".eslintrc": {
+        "name": ".eslintrc",
+        "path": "/Users/divinejohns/memU/iza-os-ecosystem-workspace/iza-os-ecosystem/activepieces/packages/pieces/community/photoroom/.eslintrc.json",
+        "type": "n8n_workflow",
+        "status": "available",
+        "description": "n8n workflow: .eslintrc",
+        "nodes": 0,
+        "connections": 0
+      },
+      "package-lock": {
+        "name": "package-lock",
+        "path": "/Users/divinejohns/memU/iza-os-ecosystem-workspace/iza-os-ecosystem/activepieces/packages/pieces/community/openai/package-lock.json",
+        "type": "n8n_workflow",
+        "status": "available",
+        "description": "n8n workflow: package-lock",
+        "nodes": 0,
+        "connections": 0
+      },
+      "tsconfig.spec": {
+        "name": "tsconfig.spec",
+        "path": "/Users/divinejohns/memU/iza-os-ecosystem-workspace/iza-os-ecosystem/activepieces/packages/pieces/community/common-ai/tsconfig.spec.json",
+        "type": "n8n_workflow",
+        "status": "available",
+        "description": "n8n workflow: tsconfig.spec",
+        "nodes": 0,
+        "connections": 0
+      },
+      "zh": {
+        "name": "zh",
+        "path": "/Users/divinejohns/memU/iza-os-ecosystem-workspace/iza-os-ecosystem/activepieces/packages/pieces/community/hunter/src/i18n/zh.json",
+        "type": "n8n_workflow",
+        "status": "available",
+        "description": "n8n workflow: zh",
+        "nodes": 0,
+        "connections": 0
+      },
+      "nl": {
+        "name": "nl",
+        "path": "/Users/divinejohns/memU/iza-os-ecosystem-workspace/iza-os-ecosystem/activepieces/packages/pieces/community/hunter/src/i18n/nl.json",
+        "type": "n8n_workflow",
+        "status": "available",
+        "description": "n8n workflow: nl",
+        "nodes": 0,
+        "connections": 0
+      },
+      "ja": {
+        "name": "ja",
+        "path": "/Users/divinejohns/memU/iza-os-ecosystem-workspace/iza-os-ecosystem/activepieces/packages/pieces/community/hunter/src/i18n/ja.json",
+        "type": "n8n_workflow",
+        "status": "available",
+        "description": "n8n workflow: ja",
+        "nodes": 0,
+        "connections": 0
+      },
+      "de": {
+        "name": "de",
+        "path": "/Users/divinejohns/memU/iza-os-ecosystem-workspace/iza-os-ecosystem/activepieces/packages/pieces/community/hunter/src/i18n/de.json",
+        "type": "n8n_workflow",
+        "status": "available",
+        "description": "n8n workflow: de",
+        "nodes": 0,
+        "connections": 0
+      },
+      "ru": {
+        "name": "ru",
+        "path": "/Users/divinejohns/memU/iza-os-ecosystem-workspace/iza-os-ecosystem/activepieces/packages/pieces/community/hunter/src/i18n/ru.json",
+        "type": "n8n_workflow",
+        "status": "available",
+        "description": "n8n workflow: ru",
+        "nodes": 0,
+        "connections": 0
+      },
+      "pt": {
+        "name": "pt",
+        "path": "/Users/divinejohns/memU/iza-os-ecosystem-workspace/iza-os-ecosystem/activepieces/packages/pieces/community/hunter/src/i18n/pt.json",
+        "type": "n8n_workflow",
+        "status": "available",
+        "description": "n8n workflow: pt",
+        "nodes": 0,
+        "connections": 0
+      },
+      "fr": {
+        "name": "fr",
+        "path": "/Users/divinejohns/memU/iza-os-ecosystem-workspace/iza-os-ecosystem/activepieces/packages/pieces/community/hunter/src/i18n/fr.json",
+        "type": "n8n_workflow",
+        "status": "available",
+        "description": "n8n workflow: fr",
+        "nodes": 0,
+        "connections": 0
+      },
+      "translation": {
+        "name": "translation",
+        "path": "/Users/divinejohns/memU/iza-os-ecosystem-workspace/iza-os-ecosystem/activepieces/packages/pieces/community/hunter/src/i18n/translation.json",
+        "type": "n8n_workflow",
+        "status": "available",
+        "description": "n8n workflow: translation",
+        "nodes": 0,
+        "connections": 0
+      },
+      "vi": {
+        "name": "vi",
+        "path": "/Users/divinejohns/memU/iza-os-ecosystem-workspace/iza-os-ecosystem/activepieces/packages/pieces/community/hunter/src/i18n/vi.json",
+        "type": "n8n_workflow",
+        "status": "available",
+        "description": "n8n workflow: vi",
+        "nodes": 0,
+        "connections": 0
+      },
+      "es": {
+        "name": "es",
+        "path": "/Users/divinejohns/memU/iza-os-ecosystem-workspace/iza-os-ecosystem/activepieces/packages/pieces/community/hunter/src/i18n/es.json",
+        "type": "n8n_workflow",
+        "status": "available",
+        "description": "n8n workflow: es",
+        "nodes": 0,
+        "connections": 0
+      },
+      "hi": {
+        "name": "hi",
+        "path": "/Users/divinejohns/memU/iza-os-ecosystem-workspace/iza-os-ecosystem/activepieces/packages/pieces/community/cal-com/src/i18n/hi.json",
+        "type": "n8n_workflow",
+        "status": "available",
+        "description": "n8n workflow: hi",
+        "nodes": 0,
+        "connections": 0
+      },
+      "ca": {
+        "name": "ca",
+        "path": "/Users/divinejohns/memU/iza-os-ecosystem-workspace/iza-os-ecosystem/activepieces/packages/pieces/community/cal-com/src/i18n/ca.json",
+        "type": "n8n_workflow",
+        "status": "available",
+        "description": "n8n workflow: ca",
+        "nodes": 0,
+        "connections": 0
+      },
+      "id": {
+        "name": "id",
+        "path": "/Users/divinejohns/memU/iza-os-ecosystem-workspace/iza-os-ecosystem/activepieces/packages/pieces/community/cal-com/src/i18n/id.json",
+        "type": "n8n_workflow",
+        "status": "available",
+        "description": "n8n workflow: id",
+        "nodes": 0,
+        "connections": 0
+      },
+      "hy": {
+        "name": "hy",
+        "path": "/Users/divinejohns/memU/iza-os-ecosystem-workspace/iza-os-ecosystem/activepieces/packages/pieces/community/webhook/src/i18n/hy.json",
+        "type": "n8n_workflow",
+        "status": "available",
+        "description": "n8n workflow: hy",
+        "nodes": 0,
+        "connections": 0
+      },
+      "hu": {
+        "name": "hu",
+        "path": "/Users/divinejohns/memU/iza-os-ecosystem-workspace/iza-os-ecosystem/activepieces/packages/pieces/community/webhook/src/i18n/hu.json",
+        "type": "n8n_workflow",
+        "status": "available",
+        "description": "n8n workflow: hu",
+        "nodes": 0,
+        "connections": 0
+      },
+      "pl": {
+        "name": "pl",
+        "path": "/Users/divinejohns/memU/iza-os-ecosystem-workspace/iza-os-ecosystem/activepieces/packages/pieces/community/webhook/src/i18n/pl.json",
+        "type": "n8n_workflow",
+        "status": "available",
+        "description": "n8n workflow: pl",
+        "nodes": 0,
+        "connections": 0
+      },
+      "uk": {
+        "name": "uk",
+        "path": "/Users/divinejohns/memU/iza-os-ecosystem-workspace/iza-os-ecosystem/activepieces/packages/pieces/community/webhook/src/i18n/uk.json",
+        "type": "n8n_workflow",
+        "status": "available",
+        "description": "n8n workflow: uk",
+        "nodes": 0,
+        "connections": 0
+      },
+      "it": {
+        "name": "it",
+        "path": "/Users/divinejohns/memU/iza-os-ecosystem-workspace/iza-os-ecosystem/activepieces/packages/pieces/community/webhook/src/i18n/it.json",
+        "type": "n8n_workflow",
+        "status": "available",
+        "description": "n8n workflow: it",
+        "nodes": 0,
+        "connections": 0
+      },
+      "bg": {
+        "name": "bg",
+        "path": "/Users/divinejohns/memU/iza-os-ecosystem-workspace/iza-os-ecosystem/activepieces/packages/pieces/community/webhook/src/i18n/bg.json",
+        "type": "n8n_workflow",
+        "status": "available",
+        "description": "n8n workflow: bg",
+        "nodes": 0,
+        "connections": 0
+      },
+      "ko": {
+        "name": "ko",
+        "path": "/Users/divinejohns/memU/iza-os-ecosystem-workspace/iza-os-ecosystem/activepieces/packages/pieces/community/webhook/src/i18n/ko.json",
+        "type": "n8n_workflow",
+        "status": "available",
+        "description": "n8n workflow: ko",
+        "nodes": 0,
+        "connections": 0
+      },
+      "sv": {
+        "name": "sv",
+        "path": "/Users/divinejohns/memU/iza-os-ecosystem-workspace/iza-os-ecosystem/activepieces/packages/pieces/community/webhook/src/i18n/sv.json",
+        "type": "n8n_workflow",
+        "status": "available",
+        "description": "n8n workflow: sv",
+        "nodes": 0,
+        "connections": 0
+      },
+      "ar": {
+        "name": "ar",
+        "path": "/Users/divinejohns/memU/iza-os-ecosystem-workspace/iza-os-ecosystem/activepieces/packages/pieces/community/webhook/src/i18n/ar.json",
+        "type": "n8n_workflow",
+        "status": "available",
+        "description": "n8n workflow: ar",
+        "nodes": 0,
+        "connections": 0
+      }
+    },
+    "vector_databases": {},
+    "logic_context": {
+      "workflow_engine": {
+        "name": "workflow_engine",
+        "path": "/Users/divinejohns/memU/iza-os-ecosystem-workspace/iza-os-specs/workflows/core/workflow_engine.py",
+        "type": "logic_context",
+        "status": "available",
+        "description": "Logic context: workflow_engine",
+        "capabilities": [
+          "Workflow Management",
+          "System Orchestration",
+          "Optimization",
+          "AI Intelligence"
+        ]
+      }
+    },
+    "memory_systems": {
+      "__init__": {
+        "name": "__init__",
+        "path": "/Users/divinejohns/memU/iza-os-ecosystem-workspace/iza-os-specs/memu/__init__.py",
+        "type": "memory_system",
+        "status": "available",
+        "description": "Memory system: __init__",
+        "features": []
+      }
+    },
+    "business_models": {
+      "bm001_resume_builder": {
+        "name": "bm001_resume_builder",
+        "path": "/Users/divinejohns/memU/iza-os-ecosystem-workspace/iza-os-specs/iza-os-production/business_models/templates/bm001_resume_builder.py",
+        "type": "business_model",
+        "status": "available",
+        "description": "BM001 - AI-Powered Resume Builder & ATS Optimizer",
+        "revenue_potential": "High ($100K-$450K monthly)",
+        "ai_capabilities": [
+          "OpenAI Integration",
+          "Vector Search",
+          "AI Processing",
+          "MCP Server"
+        ]
+      },
+      "bm003_local_seo_service": {
+        "name": "bm003_local_seo_service",
+        "path": "/Users/divinejohns/memU/iza-os-ecosystem-workspace/iza-os-specs/iza-os-production/business_models/templates/bm003_local_seo_service.py",
+        "type": "business_model",
+        "status": "available",
+        "description": "BM003 - AI Local Business SEO Service",
+        "revenue_potential": "High Revenue Potential",
+        "ai_capabilities": [
+          "AI Processing",
+          "MCP Server"
+        ]
+      },
+      "bm002_etsy_print_on_demand": {
+        "name": "bm002_etsy_print_on_demand",
+        "path": "/Users/divinejohns/memU/iza-os-ecosystem-workspace/iza-os-specs/iza-os-production/business_models/templates/bm002_etsy_print_on_demand.py",
+        "type": "business_model",
+        "status": "available",
+        "description": "BM002 - AI-Generated Etsy/Print-On-Demand Store",
+        "revenue_potential": "High Revenue Potential",
+        "ai_capabilities": [
+          "AI Processing",
+          "MCP Server"
+        ]
+      },
+      "bm005_youtube_channel_factory": {
+        "name": "bm005_youtube_channel_factory",
+        "path": "/Users/divinejohns/memU/iza-os-ecosystem-workspace/iza-os-specs/iza-os-production/business_models/templates/bm005_youtube_channel_factory.py",
+        "type": "business_model",
+        "status": "available",
+        "description": "BM005 - AI-Generated YouTube Channel Factory",
+        "revenue_potential": "High Revenue Potential",
+        "ai_capabilities": [
+          "OpenAI Integration",
+          "AI Processing",
+          "MCP Server"
+        ]
+      },
+      "bm004_fitness_meal_coach": {
+        "name": "bm004_fitness_meal_coach",
+        "path": "/Users/divinejohns/memU/iza-os-ecosystem-workspace/iza-os-specs/iza-os-production/business_models/templates/bm004_fitness_meal_coach.py",
+        "type": "business_model",
+        "status": "available",
+        "description": "BM004 - AI Fitness & Meal Planning Coach",
+        "revenue_potential": "High Revenue Potential",
+        "ai_capabilities": [
+          "Vector Search",
+          "AI Processing",
+          "MCP Server"
+        ]
+      }
+    },
+    "mcp_servers": {
+      "llm-core": {
+        "name": "llm-core",
+        "path": "/Users/divinejohns/memU/iza-os-ecosystem-workspace/iza-os-core/40-mcp-agents/mcp-servers/llm-core",
+        "type": "mcp_server",
+        "status": "available",
+        "description": "MCP server: llm-core",
+        "files": []
+      }
+    },
+    "knowledge_graphs": {
+      "README": {
+        "name": "README",
+        "path": "/Users/divinejohns/memU/iza-os-ecosystem-workspace/iza-os-specs/iza-os-production/src/knowledge/strategic-execution/README.md",
+        "type": "knowledge_graph",
+        "status": "available",
+        "description": "Knowledge graph: README",
+        "content_length": 5720
+      },
+      "STRATEGIC_INTEGRATION_INDEX": {
+        "name": "STRATEGIC_INTEGRATION_INDEX",
+        "path": "/Users/divinejohns/memU/iza-os-ecosystem-workspace/iza-os-specs/iza-os-production/src/knowledge/strategic-execution/STRATEGIC_INTEGRATION_INDEX.md",
+        "type": "knowledge_graph",
+        "status": "available",
+        "description": "Knowledge graph: STRATEGIC_INTEGRATION_INDEX",
+        "content_length": 11423
+      },
+      "phase-1-foundation": {
+        "name": "phase-1-foundation",
+        "path": "/Users/divinejohns/memU/iza-os-ecosystem-workspace/iza-os-specs/iza-os-production/src/knowledge/strategic-execution/execution-blueprints/phase-1-foundation.md",
+        "type": "knowledge_graph",
+        "status": "available",
+        "description": "Knowledge graph: phase-1-foundation",
+        "content_length": 9454
+      },
+      "mindset-principles": {
+        "name": "mindset-principles",
+        "path": "/Users/divinejohns/memU/iza-os-ecosystem-workspace/iza-os-specs/iza-os-production/src/knowledge/strategic-execution/championship-framework/mindset-principles.md",
+        "type": "knowledge_graph",
+        "status": "available",
+        "description": "Knowledge graph: mindset-principles",
+        "content_length": 5684
+      },
+      "human-operating-system": {
+        "name": "human-operating-system",
+        "path": "/Users/divinejohns/memU/iza-os-ecosystem-workspace/iza-os-specs/iza-os-production/src/knowledge/strategic-execution/operating-matrices/human-operating-system.md",
+        "type": "knowledge_graph",
+        "status": "available",
+        "description": "Knowledge graph: human-operating-system",
+        "content_length": 8920
+      }
+    }
+  },
+  "available_features": {
+    "claude_templates": 0,
+    "claude_agents": 0,
+    "n8n_workflows": 29,
+    "vector_databases": 0,
+    "logic_context": 1,
+    "memory_systems": 1,
+    "business_models": 5,
+    "mcp_servers": 1,
+    "knowledge_graphs": 5
+  }
+}

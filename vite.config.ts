@@ -13,6 +13,10 @@ export default defineConfig({
   server: {
     port: 3000,
     host: true,
+    fs: {
+      strict: false,
+      deny: ['claude-flow/**', '.git/**'],
+    },
   },
   build: {
     outDir: 'dist',

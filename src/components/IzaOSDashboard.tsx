@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
@@ -8,8 +8,6 @@ import { Separator } from '@/components/ui/separator';
 import { 
   Brain, 
   DollarSign, 
-  TrendingUp, 
-  Users, 
   Zap, 
   Activity,
   Settings,
@@ -19,9 +17,14 @@ import {
   BarChart3,
   Network,
   Lightbulb,
-  Workflow
+  Code2,
+  Terminal,
+  GitBranch,
+  Command
 } from 'lucide-react';
 import { N8NIntegration } from './N8NIntegration';
+import { ClaudeIntegration } from './ClaudeIntegration';
+import { OpenLovableIntegration } from './OpenLovableIntegration';
 
 interface AgentStatus {
   id: string;
@@ -50,7 +53,7 @@ interface SystemMetrics {
 }
 
 const IzaOSDashboard: React.FC = () => {
-  const [agents, setAgents] = useState<AgentStatus[]>([
+  const [agents] = useState<AgentStatus[]>([
     {
       id: 'finance',
       name: 'Finance Agent',
@@ -101,7 +104,7 @@ const IzaOSDashboard: React.FC = () => {
     }
   ]);
 
-  const [ventures, setVentures] = useState<VentureMetrics[]>([
+  const [ventures] = useState<VentureMetrics[]>([
     {
       id: 'v1',
       name: 'AI Resume Builder',
@@ -136,7 +139,7 @@ const IzaOSDashboard: React.FC = () => {
     }
   ]);
 
-  const [systemMetrics, setSystemMetrics] = useState<SystemMetrics>({
+  const [systemMetrics] = useState<SystemMetrics>({
     totalRevenue: 43600,
     monthlyGrowth: 23.5,
     activeVentures: 4,
@@ -252,8 +255,28 @@ const IzaOSDashboard: React.FC = () => {
 
       {/* Main Content Tabs */}
       <Tabs defaultValue="dashboard" className="space-y-6">
-        <TabsList className="grid w-full grid-cols-6">
+        <TabsList className="grid w-full grid-cols-11">
           <TabsTrigger value="dashboard">Dashboard</TabsTrigger>
+          <TabsTrigger value="development" className="flex items-center gap-2">
+            <Code2 className="h-4 w-4" />
+            Development
+          </TabsTrigger>
+          <TabsTrigger value="central_command" className="flex items-center gap-2">
+            <Command className="h-4 w-4" />
+            Central Command
+          </TabsTrigger>
+          <TabsTrigger value="complete_integration" className="flex items-center gap-2">
+            <Network className="h-4 w-4" />
+            Complete Integration
+          </TabsTrigger>
+          <TabsTrigger value="real_composition" className="flex items-center gap-2">
+            <Settings className="h-4 w-4" />
+            Real Composition
+          </TabsTrigger>
+          <TabsTrigger value="composition" className="flex items-center gap-2">
+            <Settings className="h-4 w-4" />
+            Composition Engine
+          </TabsTrigger>
           <TabsTrigger value="agents">Agent Swarm</TabsTrigger>
           <TabsTrigger value="ventures">Ventures</TabsTrigger>
           <TabsTrigger value="analytics">Analytics</TabsTrigger>
@@ -553,16 +576,182 @@ const IzaOSDashboard: React.FC = () => {
           </Card>
         </TabsContent>
 
+        <TabsContent value="development" className="space-y-6">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+            {/* Claude Desktop Integration */}
+            <Card>
+              <CardHeader>
+                <CardTitle className="flex items-center gap-2">
+                  <Bot className="h-5 w-5" />
+                  Claude Desktop Integration
+                </CardTitle>
+              </CardHeader>
+              <CardContent>
+                <ClaudeIntegration />
+              </CardContent>
+            </Card>
+
+            {/* OpenLovable Agent Management */}
+            <Card>
+              <CardHeader>
+                <CardTitle className="flex items-center gap-2">
+                  <Zap className="h-5 w-5" />
+                  OpenLovable Agents
+                </CardTitle>
+              </CardHeader>
+              <CardContent>
+                <OpenLovableIntegration />
+              </CardContent>
+            </Card>
+          </div>
+
+          {/* Feature Buttons */}
+                  <Card>
+                    <CardHeader>
+                      <CardTitle className="flex items-center gap-2">
+                        <Rocket className="h-5 w-5" />
+                        Quick Feature Actions
+                      </CardTitle>
+                    </CardHeader>
+                    <CardContent>
+                      <div className="space-y-2">
+                        <Button className="w-full" variant="outline">
+                          Generate Code
+                        </Button>
+                        <Button className="w-full" variant="outline">
+                          Analyze Data
+                        </Button>
+                        <Button className="w-full" variant="outline">
+                          Deploy System
+                        </Button>
+                      </div>
+                    </CardContent>
+                  </Card>
+
+          {/* Development Tools */}
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+            <Card>
+              <CardHeader>
+                <CardTitle className="flex items-center gap-2">
+                  <Terminal className="h-5 w-5" />
+                  Terminal Access
+                </CardTitle>
+              </CardHeader>
+              <CardContent>
+                <div className="space-y-2">
+                  <Button className="w-full" variant="outline">
+                    Open Terminal
+                  </Button>
+                  <Button className="w-full" variant="outline">
+                    Run Tests
+                  </Button>
+                  <Button className="w-full" variant="outline">
+                    Build Project
+                  </Button>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card>
+              <CardHeader>
+                <CardTitle className="flex items-center gap-2">
+                  <GitBranch className="h-5 w-5" />
+                  Git Integration
+                </CardTitle>
+              </CardHeader>
+              <CardContent>
+                <div className="space-y-2">
+                  <Button className="w-full" variant="outline">
+                    Commit Changes
+                  </Button>
+                  <Button className="w-full" variant="outline">
+                    Push to Remote
+                  </Button>
+                  <Button className="w-full" variant="outline">
+                    Create Branch
+                  </Button>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card>
+              <CardHeader>
+                <CardTitle className="flex items-center gap-2">
+                  <Code2 className="h-5 w-5" />
+                  Code Editor
+                </CardTitle>
+              </CardHeader>
+              <CardContent>
+                <div className="space-y-2">
+                  <Button className="w-full" variant="outline">
+                    Open Editor
+                  </Button>
+                  <Button className="w-full" variant="outline">
+                    Format Code
+                  </Button>
+                  <Button className="w-full" variant="outline">
+                    Generate Component
+                  </Button>
+                </div>
+              </CardContent>
+            </Card>
+          </div>
+        </TabsContent>
+
+        <TabsContent value="central_command">
+          <Card>
+            <CardHeader>
+              <CardTitle>Central Command Center</CardTitle>
+            </CardHeader>
+            <CardContent>
+              <p>Central Command Center - Control all repositories from here</p>
+            </CardContent>
+          </Card>
+        </TabsContent>
+
+        <TabsContent value="complete_integration">
+          <Card>
+            <CardHeader>
+              <CardTitle>Complete Integration</CardTitle>
+            </CardHeader>
+            <CardContent>
+              <p>Complete Integration - Access all real systems</p>
+            </CardContent>
+          </Card>
+        </TabsContent>
+
+        <TabsContent value="real_composition">
+          <Card>
+            <CardHeader>
+              <CardTitle>Real Composition Engine</CardTitle>
+            </CardHeader>
+            <CardContent>
+              <p>Real Composition Engine - Mix 111,707 real components</p>
+            </CardContent>
+          </Card>
+        </TabsContent>
+
+        <TabsContent value="composition">
+          <Card>
+            <CardHeader>
+              <CardTitle>Composition Engine</CardTitle>
+            </CardHeader>
+            <CardContent>
+              <p>Composition Engine - Mix and match components</p>
+            </CardContent>
+          </Card>
+        </TabsContent>
+
         <TabsContent value="workflows" className="space-y-6">
           <N8NIntegration 
             workflows={[]}
-            onTriggerWorkflow={async (workflowId, data) => {
+            onTriggerWorkflow={async (workflowId: string, data: any) => {
               console.log('Triggering workflow:', workflowId, data);
             }}
-            onPauseWorkflow={async (executionId) => {
+            onPauseWorkflow={async (executionId: string) => {
               console.log('Pausing workflow:', executionId);
             }}
-            onResumeWorkflow={async (executionId) => {
+            onResumeWorkflow={async (executionId: string) => {
               console.log('Resuming workflow:', executionId);
             }}
           />

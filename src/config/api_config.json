@@ -1,0 +1,39 @@
+{
+  "server": {
+    "host": "localhost",
+    "port": 3001,
+    "cors": true
+  },
+  "endpoints": {
+    "/api/claude": {
+      "methods": [
+        "POST"
+      ],
+      "handler": "handle_claude_request"
+    },
+    "/api/openlovable/start": {
+      "methods": [
+        "POST"
+      ],
+      "handler": "handle_openlovable_request"
+    },
+    "/api/openlovable/stop": {
+      "methods": [
+        "POST"
+      ],
+      "handler": "handle_openlovable_request"
+    },
+    "/api/openlovable/create": {
+      "methods": [
+        "POST"
+      ],
+      "handler": "handle_openlovable_request"
+    },
+    "/api/features/execute": {
+      "methods": [
+        "POST"
+      ],
+      "handler": "handle_feature_request"
+    }
+  }
+}

@@ -374,6 +374,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**Built with ❤️ by the IZA OS Team**
+**Built with ❤️ by the Worldwidebro Team**
 
 *Empowering entrepreneurs through intelligent automation*

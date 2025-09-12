@@ -1,0 +1,38 @@
+{
+  "CodeEditor": {
+    "type": "react_component",
+    "features": [
+      "syntax_highlighting",
+      "auto_complete",
+      "live_preview"
+    ],
+    "integrations": [
+      "claude_review",
+      "openlovable_sync"
+    ]
+  },
+  "ProjectExplorer": {
+    "type": "file_tree",
+    "features": [
+      "drag_drop",
+      "context_menu",
+      "search"
+    ],
+    "integrations": [
+      "claude_analysis",
+      "git_integration"
+    ]
+  },
+  "FeatureBuilder": {
+    "type": "visual_builder",
+    "features": [
+      "drag_drop_ui",
+      "component_library",
+      "preview"
+    ],
+    "integrations": [
+      "react_generation",
+      "claude_suggestions"
+    ]
+  }
+}
