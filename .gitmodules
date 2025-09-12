@@ -1,0 +1,30 @@
+[submodule "iza-os-core"]
+	path = iza-os-core
+	url = https://github.com/Worldwidebro/iza-os-core
+[submodule "iza-os-specs"]
+	path = iza-os-specs
+	url = https://github.com/Worldwidebro/iza-os-specs
+[submodule "iza-os-orchestrator"]
+	path = iza-os-orchestrator
+	url = https://github.com/Worldwidebro/iza-os-orchestrator
+[submodule "iza-os-agents"]
+	path = iza-os-agents
+	url = https://github.com/Worldwidebro/iza-os-agents
+[submodule "iza-os-analytics"]
+	path = iza-os-analytics
+	url = https://github.com/Worldwidebro/iza-os-analytics
+[submodule "iza-os-revenue"]
+	path = iza-os-revenue
+	url = https://github.com/Worldwidebro/iza-os-revenue
+[submodule "iza-os-business"]
+	path = iza-os-business
+	url = https://github.com/Worldwidebro/iza-os-business
+[submodule "iza-os-data"]
+	path = iza-os-data
+	url = https://github.com/Worldwidebro/iza-os-data
+[submodule "iza-os-ops"]
+	path = iza-os-ops
+	url = https://github.com/Worldwidebro/iza-os-ops
+[submodule "iza-os-experiments-llm"]
+	path = iza-os-experiments-llm
+	url = https://github.com/Worldwidebro/iza-os-experiments-llm
