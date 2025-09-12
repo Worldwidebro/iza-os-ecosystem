@@ -1,0 +1,41 @@
+# IZA OS Ecosystem Code Ownership
+# Global ownership - @Worldwidebro owns the entire ecosystem
+* @Worldwidebro
+
+# Core System Components
+/iza-os-core/               @Worldwidebro
+/iza-os-specs/              @Worldwidebro
+
+# Agent & Orchestration
+/iza-os-orchestrator/       @Worldwidebro
+/iza-os-agents/             @Worldwidebro
+
+# Business & Revenue
+/iza-os-business/           @Worldwidebro
+/iza-os-revenue/            @Worldwidebro
+
+# Data & Analytics
+/iza-os-data/               @Worldwidebro
+/iza-os-analytics/          @Worldwidebro
+
+# DevOps & Infrastructure
+/iza-os-ops/                @Worldwidebro
+
+# Experimental & Research
+/iza-os-experiments-llm/    @Worldwidebro
+
+# Ecosystem Configuration
+.github/                    @Worldwidebro
+.gitmodules                 @Worldwidebro
+README.md                   @Worldwidebro
+CONTRIBUTING.md            @Worldwidebro
+
+# Security & Compliance
+SECURITY.md                 @Worldwidebro
+LICENSE                     @Worldwidebro
+
+# Future team expansion ready
+# /iza-os-agents/finance/     @finance-team
+# /iza-os-agents/marketing/   @marketing-team  
+# /iza-os-ops/security/       @security-team
+# /iza-os-data/pipelines/     @data-team
