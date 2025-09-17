@@ -63,6 +63,14 @@ const navigationItems = [
     color: 'text-green-600',
     bgColor: 'bg-green-50 hover:bg-green-100',
   },
+  {
+    id: 'settings',
+    label: 'Settings',
+    icon: Settings,
+    description: 'System preferences',
+    color: 'text-slate-600',
+    bgColor: 'bg-slate-50 hover:bg-slate-100',
+  },
 ];
 
 const quickActions = [
