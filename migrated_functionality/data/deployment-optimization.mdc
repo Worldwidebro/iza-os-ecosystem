@@ -1,0 +1,191 @@
+---
+description: Deployment Optimization and DevOps Rules
+globs: ["**/docker/**", "**/deployment/**", "**/devops/**", "**/*.yml", "**/*.yaml"]
+alwaysApply: true
+---
+
+# 🚀 DEPLOYMENT OPTIMIZATION AND DEVOPS RULES
+## Enterprise-Grade Deployment and Infrastructure Standards
+
+## Deployment Optimization Principles
+- All deployments must be fast, reliable, and scalable
+- Implement zero-downtime deployment strategies
+- Optimize for 96% faster deployment times
+- Build for global scale and high availability
+- Implement comprehensive monitoring and alerting
+
+## Docker Optimization
+- Use multi-stage builds for optimized images
+- Implement layer caching for faster builds
+- Use .dockerignore to exclude unnecessary files
+- Implement health checks for container monitoring
+- Use specific base image versions for reproducibility
+- Implement image scanning for security vulnerabilities
+
+## Container Orchestration
+- Use Kubernetes for container orchestration
+- Implement auto-scaling based on demand
+- Use load balancing for high availability
+- Implement rolling updates for zero downtime
+- Use service mesh for microservices communication
+- Implement resource limits and requests
+
+## CI/CD Pipeline Optimization
+- Implement parallel job execution
+- Use caching for dependencies and build artifacts
+- Implement incremental builds
+- Use build matrix for multi-platform support
+- Implement automated testing in pipeline
+- Use deployment gates and approvals
+
+## Infrastructure as Code
+- Use Terraform for infrastructure provisioning
+- Implement version control for infrastructure
+- Use modular infrastructure components
+- Implement environment parity
+- Use automated infrastructure testing
+- Implement infrastructure monitoring and alerting
+
+## Performance Optimization
+- Implement CDN for static asset delivery
+- Use database connection pooling
+- Implement caching strategies (Redis, Memcached)
+- Use load balancing for traffic distribution
+- Implement database read replicas
+- Use compression for API responses
+
+## Monitoring and Observability
+- Implement comprehensive logging (structured logs)
+- Use metrics collection (Prometheus)
+- Implement distributed tracing (Jaeger)
+- Use alerting for critical issues
+- Implement dashboards for monitoring (Grafana)
+- Use health checks for service monitoring
+
+## Security in Deployment
+- Implement security scanning in CI/CD pipeline
+- Use secrets management (HashiCorp Vault, AWS KMS)
+- Implement network security policies
+- Use container image scanning
+- Implement runtime security monitoring
+- Use encryption for data in transit and at rest
+
+## Database Deployment
+- Use database migrations for schema changes
+- Implement database backup and recovery
+- Use read replicas for scaling
+- Implement database monitoring
+- Use connection pooling
+- Implement database performance optimization
+
+## API Deployment
+- Implement API versioning
+- Use rate limiting and throttling
+- Implement API documentation
+- Use API gateway for traffic management
+- Implement API monitoring and analytics
+- Use API security best practices
+
+## Frontend Deployment
+- Implement static site generation (SSG)
+- Use server-side rendering (SSR) where needed
+- Implement code splitting and lazy loading
+- Use CDN for asset delivery
+- Implement progressive web app (PWA) features
+- Use performance optimization techniques
+
+## Backend Deployment
+- Implement microservices architecture
+- Use containerization for deployment
+- Implement service discovery
+- Use message queues for async processing
+- Implement circuit breaker pattern
+- Use bulkhead pattern for isolation
+
+## Environment Management
+- Implement environment parity
+- Use configuration management
+- Implement secrets management
+- Use environment-specific configurations
+- Implement environment promotion
+- Use environment monitoring
+
+## Deployment Strategies
+- Use blue-green deployment for zero downtime
+- Implement canary deployment for gradual rollouts
+- Use rolling deployment for continuous updates
+- Implement feature flags for controlled rollouts
+- Use A/B testing for deployment validation
+- Implement automated rollback procedures
+
+## Scalability and Performance
+- Design for horizontal scaling
+- Implement auto-scaling policies
+- Use load balancing strategies
+- Implement caching at multiple levels
+- Use database sharding for scale
+- Implement performance monitoring
+
+## Disaster Recovery
+- Implement automated backup procedures
+- Use multi-region deployment
+- Implement failover mechanisms
+- Use data replication for availability
+- Implement recovery time objectives (RTO)
+- Use recovery point objectives (RPO)
+
+## Cost Optimization
+- Implement resource optimization
+- Use spot instances for cost savings
+- Implement auto-scaling for cost efficiency
+- Use reserved instances for predictable workloads
+- Implement cost monitoring and alerting
+- Use infrastructure right-sizing
+
+## Compliance and Governance
+- Implement compliance monitoring
+- Use audit trails for deployments
+- Implement change management processes
+- Use approval workflows for critical changes
+- Implement compliance reporting
+- Use governance frameworks
+
+## Team Collaboration
+- Implement deployment automation
+- Use infrastructure as code for collaboration
+- Implement deployment documentation
+- Use deployment runbooks
+- Implement knowledge sharing
+- Use cross-team collaboration tools
+
+## Continuous Improvement
+- Implement deployment metrics and analytics
+- Use feedback collection and analysis
+- Implement process improvement
+- Use automation for repetitive tasks
+- Implement best practices sharing
+- Use lessons learned and post-mortems
+
+## Technology Stack
+- Use Docker for containerization
+- Use Kubernetes for orchestration
+- Use Terraform for infrastructure
+- Use GitHub Actions for CI/CD
+- Use Prometheus for monitoring
+- Use Grafana for dashboards
+
+## Deployment Best Practices
+- Implement deployment automation
+- Use infrastructure as code
+- Implement comprehensive testing
+- Use monitoring and alerting
+- Implement security best practices
+- Use performance optimization
+
+## Troubleshooting and Support
+- Implement comprehensive logging
+- Use monitoring and alerting
+- Implement troubleshooting guides
+- Use support documentation
+- Implement incident response procedures
+- Use post-mortem analysis

@@ -1,0 +1,103 @@
+{
+  "name": "Enterprise Repository Monitoring",
+  "nodes": [
+    {
+      "parameters": {
+        "command": "node enterprise-integration-orchestrator.cjs orchestrate"
+      },
+      "id": "enterprise-orchestrator",
+      "name": "Enterprise Orchestrator",
+      "type": "n8n-nodes-base.executeCommand",
+      "typeVersion": 1,
+      "position": [240, 300]
+    },
+    {
+      "parameters": {
+        "url": "http://localhost:8000/api/metrics",
+        "options": {}
+      },
+      "id": "ecosystem-metrics",
+      "name": "Ecosystem Metrics",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.1,
+      "position": [460, 200]
+    },
+    {
+      "parameters": {
+        "command": "ls -d */ | wc -l"
+      },
+      "id": "repository-count",
+      "name": "Repository Count",
+      "type": "n8n-nodes-base.executeCommand",
+      "typeVersion": 1,
+      "position": [460, 400]
+    },
+    {
+      "parameters": {
+        "message": "Enterprise Repository Status\nTotal Repositories: {{ $('Repository Count').item.json.stdout }}\nEcosystem Value: $2.54B+\nStatus: All Systems Operational",
+        "options": {}
+      },
+      "id": "enterprise-notification",
+      "name": "Enterprise Notification",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [680, 300]
+    }
+  ],
+  "connections": {
+    "Enterprise Orchestrator": {
+      "main": [
+        [
+          {
+            "node": "Ecosystem Metrics",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Repository Count",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Ecosystem Metrics": {
+      "main": [
+        [
+          {
+            "node": "Enterprise Notification",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Repository Count": {
+      "main": [
+        [
+          {
+            "node": "Enterprise Notification",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "pinData": {},
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "staticData": null,
+  "tags": [
+    {
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "updatedAt": "2024-01-01T00:00:00.000Z",
+      "id": "enterprise",
+      "name": "Enterprise"
+    }
+  ],
+  "triggerCount": 0,
+  "updatedAt": "2024-01-01T00:00:00.000Z",
+  "versionId": "1"
+}
